@@ -27,6 +27,9 @@ button:focus {
     font-weight: 600;
 }
 
+.navbar-collapse  {
+    text-align: center;
+}
 /* ----navbar hover effect----------*/
 
 .navbar-light .navbar-nav .nav-link::after {
@@ -42,6 +45,32 @@ button:focus {
     width: 100%;
     transition: width .3s;
 }
+
+/*-------section------------*/
+
+#top-img {
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ /*   background-image: url('https://images.pexels.com/photos/792199/pexels-photo-792199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');*/
+    background-image: url('https://images.pexels.com/photos/604898/pexels-photo-604898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+.top-container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.text {
+    font-weight: 600;
+    font-size: larger;
+    max-width: 900px;
+    margin: 85px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
 
 @media(max-width: 391px) {
     .navbar-light .navbar-toggler {
