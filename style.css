@@ -1,21 +1,20 @@
 body {
     background-color: rgb(235, 235, 235);
 }
-h1 {
-    text-align: center;
-}
+/* -------navbar--------------*/
 .navbar-expand-lg {
     background-color: #fff;
     box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
 }
 
-.navbar-band {
-    font-family: Poppins;
-    font-weight: 900;
-}
 .navbar-light .navbar-toggler {
     color: none;
     border-color: transparent !important;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
 }
 
 button:focus {
@@ -23,11 +22,30 @@ button:focus {
     outline: none;
 }
 
-@media(max-width: 374px) {
+.navbar-nav a {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* ----navbar hover effect----------*/
+
+.navbar-light .navbar-nav .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+@media(max-width: 391px) {
     .navbar-light .navbar-toggler {
         margin: 0 auto;
+        font-size: 17px;
     }
-    #brand-mb {
-        margin: 0 auto;
-    };
 }
