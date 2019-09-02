@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(235, 235, 235);
+}
+h1 {
+    text-align: center;
+}
+.navbar-expand-lg {
+    background-color: #fff;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+}
+
+.navbar-band {
+    font-family: Poppins;
+    font-weight: 900;
+}
+.navbar-light .navbar-toggler {
+    color: none;
+    border-color: transparent !important;
+}
+
+button:focus {
+    outline: 1px dotted;
+    outline: none;
+}
+
+@media(max-width: 374px) {
+    .navbar-light .navbar-toggler {
+        margin: 0 auto;
+    }
+    #brand-mb {
+        margin: 0 auto;
+    };
+}
