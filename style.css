@@ -78,14 +78,51 @@ button:focus {
 }
 .para {
     font-size: larger;
-    margin: 40px 10% 40px 10%;
+    margin: 20px 10% 0px;
 }
 
 h2 {
     margin-left: 10%;
-    margin-top: 15%;
-    letter-spacing: 7px;
+    margin-top: 5%;
+    letter-spacing: 5px;
     text-transform: uppercase;
+}
+
+/*--------projects------------*/
+
+#projects {
+    padding: 5em 0;
+}
+
+.card-wrapper {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.card {
+    width: 320px;
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+
+}
+
+.proj-description {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.proj-heading {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 20px;
 }
 
 @media(max-width: 391px) {
@@ -93,4 +130,25 @@ h2 {
         margin: 0 auto;
         font-size: 17px;
     }
+    .card {
+        width: 290px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .card-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        margin: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 3140px;
+  }
 }
