@@ -53,7 +53,6 @@ button:focus {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
- /*   background-image: url('https://images.pexels.com/photos/792199/pexels-photo-792199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');*/
     background-image: url('https://images.pexels.com/photos/604898/pexels-photo-604898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 }
 .top-container {
@@ -70,7 +69,24 @@ button:focus {
     padding-right: 10px;
 }
 
+/*--------about--------*/
+#about {
+    margin-top: 8%;
+    padding-bottom: 5%;
+    max-width: 100%;
+    background-color: #fff
+}
+.para {
+    font-size: larger;
+    margin: 40px 10% 40px 10%;
+}
 
+h2 {
+    margin-left: 10%;
+    margin-top: 15%;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
 
 @media(max-width: 391px) {
     .navbar-light .navbar-toggler {
