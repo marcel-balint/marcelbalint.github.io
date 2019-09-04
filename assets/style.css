@@ -231,6 +231,14 @@ h2 {
     justify-content: space-evenly;
 }
 
+@supports (-ms-flow-from: thingy) { /* Edge only */
+
+    .contact-social {
+        justify-content: space-around;
+    }
+
+}
+
 .copyrights {
     display: block;
     margin-bottom: 12px;
