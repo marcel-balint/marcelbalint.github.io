@@ -13,7 +13,6 @@ body {
     z-index: 2;
 }
 .navbar-light .navbar-toggler {
-    color: none;
     border-color: transparent !important;
 }
 .navbar-light .navbar-brand {
