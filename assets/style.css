@@ -42,7 +42,7 @@ button:focus {
     display: block;
     width: 0;
     height: 2px;
-    background: #000;
+    background: #55B4B0;
     transition: width .3s;
 }
 
@@ -192,7 +192,6 @@ h2 {
 .frameworks,
 .tools {
     text-align: center;
-
 }
 
 .languages,
@@ -261,7 +260,7 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 1px solid #000;
+    border-top: 1px solid #55B4B0;
     width: 50%;
 }
 
@@ -281,6 +280,12 @@ hr {
     .card {
         width: 290px;
     }
+}
+
+@media(max-width: 768px) {
+    .lang-title {
+    margin-top: 26px;
+   }
 }
 
 @media screen and (min-width: 700px) {
