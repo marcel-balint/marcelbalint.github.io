@@ -1,3 +1,5 @@
+document.getElementById('currentYear').innerHTML = new Date().getFullYear();
+
 $(document).ready(function () {
     // Add smooth scrolling to all links
     $("a").on('click', function (event) {
@@ -18,3 +20,5 @@ $(document).ready(function () {
         } // End if
     });
 });
+
+

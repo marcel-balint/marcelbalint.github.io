@@ -1,307 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Marcel Balint</title>
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <!-- Font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="assets/style.css" type="text/css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light navbar-right">
-        <a class="navbar-brand" href="#"
-          ><span id="brand-mb">Marcel Balint - Web Developer</span></a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="assets/cv/marcel_balint_cv.pdf"
-                target="_blank"
-                ><i class="fa fa-download download"></i> Resume</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <section>
-      <div class="container-fluid top-container">
-        <div id="top-img"></div>
-        <div class="text-center">
-          <p class="text">
-            I'm passionate about learning the latest and greatest technologies.
-            Interested in new programming technologies, and continuous self
-            improvement. I am currently open to opportunities within the web
-            development.
-          </p>
-        </div>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Marcel Balint</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/style.css" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-right">
+      <a class="navbar-brand" href="#"><span id="brand-mb">Marcel Balint - Web Developer</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="assets/cv/marcel_balint_cv.pdf" target="_blank"><i
+                class="fa fa-download download"></i> Resume</a>
+          </li>
+        </ul>
       </div>
-    </section>
-    <section class="container" id="about">
-      <div class="row">
-        <h2>About me</h2>
+    </nav>
+  </header>
+  <section>
+    <div class="container-fluid top-container">
+      <div id="top-img"></div>
+      <div class="text-center">
+        <p class="text">
+          I'm passionate about learning the latest and greatest technologies.
+          Interested in new programming technologies, and continuous self
+          improvement. I am currently open to opportunities within the web
+          development.
+        </p>
       </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <p class="para">
-            Graduated from Code Institute with Diploma in Full Stack Web
-            Development credit-rated by Edinburgh Napier University. With the
-            knowledge and skills obtained through this course, I created my
-            front-end and back-end projects. I specialize in HTML, CSS,
-            JavaScript. Passionate about creating a positive user experience and
-            interested in continuous self improvement.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section id="projects">
-      <div class="container">
-        <h2 class="proj-heading">Porojects</h2>
-        <hr />
-        <div class="card-wrapper">
-          <div class="card">
-            <h3>Burger Builder</h3>
-            <p class="proj-description">
-              This is an application that allows users to build a burger by
-              adding or removing ingredients. Then, the user can order it by
-              filling in a form with contact details. Frameworks and languages:
-              <strong>React</strong>, <strong>React Router</strong>,
-              <strong>CSS</strong>.
-            </p>
-            <div class="proj-links text-center">
-              <a href="https://react-burger-d959b.firebaseapp.com/"
-                ><i class="fa fa-desktop desktop"></i
-              ></a>
-              <a href="https://github.com/marcel-balint/react-burger-builder"
-                ><i class="fa fa-github" id="git-icon3"></i
-              ></a>
-            </div>
-          </div>
-          <div class="card">
-            <h3>Holiday Locator</h3>
-            <p class="proj-description">
-              Single page application which uses Google Maps API to allow users
-              to search for their next holiday destination. Languages used:
-              <strong>HTML</strong>, <strong>CSS</strong>,
-              <strong>JavaScript</strong>, <strong>Google Maps API.</strong>
-            </p>
-            <div class="proj-links text-center">
-              <a href="https://marcel-balint.github.io/holiday_locator/"
-                ><i class="fa fa-desktop desktop"></i
-              ></a>
-              <a href="https://github.com/marcel-balint/holiday_locator"
-                ><i class="fa fa-github" id="git-icon2"></i
-              ></a>
-            </div>
-          </div>
-          <div class="card">
-            <h3>The Budget</h3>
-            <p class="proj-description">
-              This app allows users to add incomes and expenses for a given
-              month, then calculates and displays the total amount of money made
-              and the total amount of money spent that month. Languages used:
-              <strong>HTML</strong>, <strong>CSS</strong>,
-              <strong>JavaScript</strong>.
-            </p>
-            <div class="proj-links text-center">
-              <a href="https://marcel-balint.github.io/budget/"
-                ><i class="fa fa-desktop desktop"></i
-              ></a>
-              <a href="https://github.com/marcel-balint/budget"
-                ><i class="fa fa-github" id="git-icon3"></i
-              ></a>
-            </div>
-          </div>
-          <div class="card">
-            <h3>A 1960 rock band</h3>
-            <p class="proj-description">
-              This is a (front-end only), 5 page website, for a 1960 rock band
-              called The Monkees created as part of Full Stack Software
-              Development course. Languages used: <strong>HTML</strong>,
-              <strong>CSS</strong>, <strong>Bootstrap</strong>.
-            </p>
-            <div class="proj-links text-center">
-              <a href="https://marcel-balint.github.io/ucd-milestone-project1/"
-                ><i class="fa fa-desktop desktop"></i
-              ></a>
-              <a href="https://github.com/marcel-balint/ucd-milestone-project1"
-                ><i class="fa fa-github" id="git-icon1"></i
-              ></a>
-            </div>
-          </div>
-          <div class="card">
-            <h3>The Shopper</h3>
-            <p class="proj-description">
-              Fictional ecommerce website. Implemented customer authentication
-              and payments via Stripe API. Languages used:
-              <strong>HTML</strong>, <strong>CSS</strong>,
-              <strong>JQuery</strong>, <strong>Python</strong>,
-              <strong>Django 1.11.4</strong>, <strong>Bootstrap</strong>,
-              <strong>Stripe API</strong>, <strong>Amazon AWS S3</strong>,
-              <strong>PostrgeSQL</strong>.
-            </p>
-            <div class="proj-links text-center">
-              <a href="https://the-shopper120.herokuapp.com/"
-                ><i class="fa fa-desktop desktop"></i
-              ></a>
-              <a href="https://github.com/marcel-balint/e-commerce"
-                ><i class="fa fa-github" id="git-icon4"></i
-              ></a>
-            </div>
-          </div>
-          <div class="card">
-            <h3>Easy Recipes</h3>
-            <p class="proj-description">
-              Recipe website, where users can look up a list of recipes in a
-              database and add their own. Recipes can be added, edited, and
-              deleted by users. Languages used: <strong>HTML</strong>,
-              <strong>CSS</strong>, <strong>JQuery</strong>,
-              <strong>Materialize</strong>, <strong>Python</strong>,
-              <strong>Flask</strong>, <strong>MongoDB.</strong>
-            </p>
-            <div class="proj-links text-center">
-              <a href="https://easy-recipes.herokuapp.com/"
-                ><i class="fa fa-desktop desktop"></i
-              ></a>
-              <a href="https://github.com/marcel-balint/easy-recipes"
-                ><i class="fa fa-github" id="git-icon3"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="container" id="skills">
-      <h2 class="skills">Skills</h2>
-      <div class="row">
-        <div class="col-sm-12 col-md-4 col-lg-4">
-          <h4 class="text-center lang-title">Languages</h4>
-          <div class="languages">
-            <p><img src="assets/images/html.png" alt="html" /> HTML</p>
-            <p><img src="assets/images/css3.png" alt="css" /> CSS</p>
-            <p>
-              <img src="assets/images/javascript.png" alt="JavaScript" />
-              JavaScript
-            </p>
-            <p><img src="assets/images/python.png" alt="Python" /> Python</p>
-            <p><img src="assets/images/sql.png" alt="sql" /> SQL</p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4 col-lg-4">
-          <h4 class="text-center lang-title">Frameworks / Libraries</h4>
-          <div class="frameworks">
-            <p>
-              <img src="assets/images/bootstrap.png" alt="Bootstrap" />
-              Bootstrap
-            </p>
-            <p>
-              <img src="assets/images/react.png" alt="React" class="react" />
-              React
-            </p>
-            <p><img src="assets/images/jquery.png" alt="JQuery" /> JQuery</p>
-            <p>
-              <img
-                src="assets/images/flask.png"
-                class="flask-icon"
-                alt="Flask"
-              />
-              Flask
-            </p>
-            <p><img src="assets/images/django.png" alt="Django" /> Django</p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4 col-lg-4">
-          <h4 class="text-center lang-title">Tools</h4>
-          <div class="tools">
-            <p><img src="assets/images/heroku.png" alt="Heroku" /> Heroku</p>
-            <p><img src="assets/images/mongodb.png" alt="MongoDB" /> MongoDB</p>
-            <p><img src="assets/images/git.png" alt="git" /> Git</p>
-            <p><img src="assets/images/visual.png" alt="vscode" /> VSCode</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="footer-wrapper">
-      <footer class="container" id="contact">
-        <h3 class="contact-title">Contact</h3>
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 contact-info">
-            <h4 class="email"><i class="fa fa-envelope-square"></i> Email:</h4>
-            <p>marcelbalint363@gmail.com</p>
-            <h4 class="phone"><i class="fa fa-mobile"></i> Phone:</h4>
-            <p>+40 769169478</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 contact-social">
-            <a
-              href="https://www.linkedin.com/in/marcel-balint-250b1a177/"
-              target="_blank"
-              ><i class="fa fa-linkedin linkedin"></i
-            ></a>
-            <a href="https://github.com/marcel-balint" target="_blank"
-              ><i class="fa fa-github github"></i
-            ></a>
-          </div>
-        </div>
-        <hr />
-        <div class="copyrights">© 2019 All rights reserved.</div>
-      </footer>
     </div>
+  </section>
+  <section class="container" id="about">
+    <div class="row">
+      <h2>About me</h2>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <p class="para">
+          Graduated from Code Institute with Diploma in Full Stack Web
+          Development credit-rated by Edinburgh Napier University. With the
+          knowledge and skills obtained through this course, I created my
+          front-end and back-end projects. I specialize in HTML, CSS,
+          JavaScript. Passionate about creating a positive user experience and
+          interested in continuous self improvement.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="container">
+      <h2 class="proj-heading">Porojects</h2>
+      <hr />
+      <div class="card-wrapper">
+        <div class="card">
+          <h3>Burger Builder</h3>
+          <p class="proj-description">
+            This is an application that allows users to build a burger by
+            adding or removing ingredients. Then, the user can order it by
+            filling in a form with contact details. Frameworks and languages:
+            <strong>React</strong>, <strong>React Router</strong>,
+            <strong>CSS</strong>.
+          </p>
+          <div class="proj-links text-center">
+            <a href="https://react-burger-d959b.firebaseapp.com/"><i class="fa fa-desktop desktop"></i></a>
+            <a href="https://github.com/marcel-balint/react-burger-builder"><i class="fa fa-github"
+                id="git-icon3"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Holiday Locator</h3>
+          <p class="proj-description">
+            Single page application which uses Google Maps API to allow users
+            to search for their next holiday destination. Languages used:
+            <strong>HTML</strong>, <strong>CSS</strong>,
+            <strong>JavaScript</strong>, <strong>Google Maps API.</strong>
+          </p>
+          <div class="proj-links text-center">
+            <a href="https://marcel-balint.github.io/holiday_locator/"><i class="fa fa-desktop desktop"></i></a>
+            <a href="https://github.com/marcel-balint/holiday_locator"><i class="fa fa-github" id="git-icon2"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>The Budget</h3>
+          <p class="proj-description">
+            This app allows users to add incomes and expenses for a given
+            month, then calculates and displays the total amount of money made
+            and the total amount of money spent that month. Languages used:
+            <strong>HTML</strong>, <strong>CSS</strong>,
+            <strong>JavaScript</strong>.
+          </p>
+          <div class="proj-links text-center">
+            <a href="https://marcel-balint.github.io/budget/"><i class="fa fa-desktop desktop"></i></a>
+            <a href="https://github.com/marcel-balint/budget"><i class="fa fa-github" id="git-icon3"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>A 1960 rock band</h3>
+          <p class="proj-description">
+            This is a (front-end only), 5 page website, for a 1960 rock band
+            called The Monkees created as part of Full Stack Software
+            Development course. Languages used: <strong>HTML</strong>,
+            <strong>CSS</strong>, <strong>Bootstrap</strong>.
+          </p>
+          <div class="proj-links text-center">
+            <a href="https://marcel-balint.github.io/ucd-milestone-project1/"><i class="fa fa-desktop desktop"></i></a>
+            <a href="https://github.com/marcel-balint/ucd-milestone-project1"><i class="fa fa-github"
+                id="git-icon1"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>The Shopper</h3>
+          <p class="proj-description">
+            Fictional ecommerce website. Implemented customer authentication
+            and payments via Stripe API. Languages used:
+            <strong>HTML</strong>, <strong>CSS</strong>,
+            <strong>JQuery</strong>, <strong>Python</strong>,
+            <strong>Django 1.11.4</strong>, <strong>Bootstrap</strong>,
+            <strong>Stripe API</strong>, <strong>Amazon AWS S3</strong>,
+            <strong>PostrgeSQL</strong>.
+          </p>
+          <div class="proj-links text-center">
+            <a href="https://the-shopper120.herokuapp.com/"><i class="fa fa-desktop desktop"></i></a>
+            <a href="https://github.com/marcel-balint/e-commerce"><i class="fa fa-github" id="git-icon4"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Easy Recipes</h3>
+          <p class="proj-description">
+            Recipe website, where users can look up a list of recipes in a
+            database and add their own. Recipes can be added, edited, and
+            deleted by users. Languages used: <strong>HTML</strong>,
+            <strong>CSS</strong>, <strong>JQuery</strong>,
+            <strong>Materialize</strong>, <strong>Python</strong>,
+            <strong>Flask</strong>, <strong>MongoDB.</strong>
+          </p>
+          <div class="proj-links text-center">
+            <a href="https://easy-recipes.herokuapp.com/"><i class="fa fa-desktop desktop"></i></a>
+            <a href="https://github.com/marcel-balint/easy-recipes"><i class="fa fa-github" id="git-icon3"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container" id="skills">
+    <h2 class="skills">Skills</h2>
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <h4 class="text-center lang-title">Languages</h4>
+        <div class="languages">
+          <p><img src="assets/images/html.png" alt="html" /> HTML</p>
+          <p><img src="assets/images/css3.png" alt="css" /> CSS</p>
+          <p>
+            <img src="assets/images/javascript.png" alt="JavaScript" />
+            JavaScript
+          </p>
+          <p><img src="assets/images/python.png" alt="Python" /> Python</p>
+          <p><img src="assets/images/sql.png" alt="sql" /> SQL</p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <h4 class="text-center lang-title">Frameworks / Libraries</h4>
+        <div class="frameworks">
+          <p>
+            <img src="assets/images/bootstrap.png" alt="Bootstrap" />
+            Bootstrap
+          </p>
+          <p>
+            <img src="assets/images/react.png" alt="React" class="react" />
+            React
+          </p>
+          <p><img src="assets/images/jquery.png" alt="JQuery" /> JQuery</p>
+          <p>
+            <img src="assets/images/flask.png" class="flask-icon" alt="Flask" />
+            Flask
+          </p>
+          <p><img src="assets/images/django.png" alt="Django" /> Django</p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <h4 class="text-center lang-title">Tools</h4>
+        <div class="tools">
+          <p><img src="assets/images/heroku.png" alt="Heroku" /> Heroku</p>
+          <p><img src="assets/images/mongodb.png" alt="MongoDB" /> MongoDB</p>
+          <p><img src="assets/images/git.png" alt="git" /> Git</p>
+          <p><img src="assets/images/visual.png" alt="vscode" /> VSCode</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="footer-wrapper">
+    <footer class="container" id="contact">
+      <h3 class="contact-title">Contact</h3>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 contact-info">
+          <h4 class="email"><i class="fa fa-envelope-square"></i> Email:</h4>
+          <p>marcelbalint363@gmail.com</p>
+          <h4 class="phone"><i class="fa fa-mobile"></i> Phone:</h4>
+          <p>+31 6 45379173</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 contact-social">
+          <a href="https://www.linkedin.com/in/marcel-balint-250b1a177/" target="_blank"><i
+              class="fa fa-linkedin linkedin"></i></a>
+          <a href="https://github.com/marcel-balint" target="_blank"><i class="fa fa-github github"></i></a>
+        </div>
+      </div>
+      <hr />
+      <div class="copyrights">© <span id="currentYear"></span> All rights reserved.</div>
+    </footer>
+  </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="assets/script.js"></script>
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="assets/script.js"></script>
+</body>
+
 </html>
