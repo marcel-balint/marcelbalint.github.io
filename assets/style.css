@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(249, 247, 247);
+  font-size: large;
 }
 /* -------navbar--------------*/
 .navbar-expand-lg {
@@ -55,15 +56,17 @@ button:focus {
 #top-img {
   min-height: 700px;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  background-image: url("images/backgroundImage.jpg");
-
+  background-image: url("images/image.jpg");
+  background-attachment: fixed;
+  background-size: 90%;
 }
 .top-container {
   padding-right: 0px;
   padding-left: 0px;
 }
+
 
 .text {
   font-weight: 600;
@@ -120,13 +123,18 @@ h2 {
 .card:hover {
   transform: scale(1.03);
   box-shadow: 0px 5px 10px #a7a7a7;
+  color:#55b4b0;
+  
 }
+
 
 .proj-description {
   position: absolute;
   text-align: center;
   top: 145px;
+ 
 }
+
 
 .proj-heading {
   text-transform: uppercase;
