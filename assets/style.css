@@ -166,6 +166,10 @@ h2 {
   color: #ebebeb;
 }
 
+.not-allowed {
+  cursor:not-allowed;
+}
+
 /*---------skills----------*/
 
 .skills {
